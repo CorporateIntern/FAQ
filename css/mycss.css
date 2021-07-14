@@ -1,0 +1,22 @@
+﻿.box {
+  display:flexbox;
+}
+
+.left {
+  flex: 1;  /* grow */
+  text-align:left;
+}
+
+.right {
+  flex: 0 0 250px; /* do not grow, do not shrink, start at 250px */
+  float:right;
+}
+
+div#div1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+li#li1 {
+  margin-bottom: 10px;
+}
